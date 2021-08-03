@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         DatabaseReference data=FirebaseDatabase.getInstance().getReference();
-        data.child("DMThien").setValue("Cmn");
+        data.child("Dathanhcong").setValue("Oke Cau");
     }
 }
